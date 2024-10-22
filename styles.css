@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+h1 {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 500;
+}
+
+.container-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.summary-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+}
+
+.summary-box h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #293948;
+}
+
+.summary-box ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.summary-box li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.reaction-icon {
+  color: #FF6D6D;
+}
+
+li:nth-child(1) {
+  background-color: #ffe5e5;
+}
+
+.memory-icon {
+  color: #FFBB00;
+}
+
+li:nth-child(2) {
+  background-color: #FFF5DC;
+}
+
+.verbal-icon {
+  color: #00C48C;
+}
+
+li:nth-child(3) {
+  background-color: #E5FFF5;
+}
+
+.visual-icon {
+  color: #5A5DF4;
+}
+
+li:nth-child(4) {
+  background-color: #E8E8FF;
+}
+
+button {
+  background-color: #293948;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #16222b;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 600px;
+}
+
+.result-card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.result-box {
+  background-color: #6a40fb;
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.result-box h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.result-box .score {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #4d2eca;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 10px;
+}
+
+.result-box p {
+  margin: 10px 0;
+}
